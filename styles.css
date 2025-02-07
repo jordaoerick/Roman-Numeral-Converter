@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tellus_-_Ara_Pacis.jpg/1280px-Tellus_-_Ara_Pacis.jpg");
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px auto;
+  border: 2px solid white;
+  padding: 20px;
+  background-color: black;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+#output {
+  padding: 20px;
+  background-color: black;
+  border: 2px solid white;
+  margin: 10px;
+}
